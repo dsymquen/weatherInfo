@@ -1,5 +1,5 @@
 (function(){
 
-    navigator.geolocation.getCurrentPosition(function(P){console.log(P)});
+    navigator.geolocation.getCurrentPosition(function(P){console.log(P.coords)});
 
 })();
